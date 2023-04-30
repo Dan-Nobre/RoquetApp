@@ -11,6 +11,10 @@
 		65281E9429FF1D7D004AB8A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65281E9329FF1D7D004AB8A0 /* ContentView.swift */; };
 		65281E9629FF1D7E004AB8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65281E9529FF1D7E004AB8A0 /* Assets.xcassets */; };
 		65281E9929FF1D7E004AB8A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65281E9829FF1D7E004AB8A0 /* Preview Assets.xcassets */; };
+		65281EA029FF1DE5004AB8A0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65281E9F29FF1DE5004AB8A0 /* HomeView.swift */; };
+		65281EA229FF2097004AB8A0 /* LoadingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65281EA129FF2097004AB8A0 /* LoadingPageView.swift */; };
+		65281EA429FF278A004AB8A0 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65281EA329FF278A004AB8A0 /* Functions.swift */; };
+		65281EA629FF283D004AB8A0 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65281EA529FF283D004AB8A0 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		65281E9329FF1D7D004AB8A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		65281E9529FF1D7E004AB8A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65281E9829FF1D7E004AB8A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65281E9F29FF1DE5004AB8A0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		65281EA129FF2097004AB8A0 /* LoadingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPageView.swift; sourceTree = "<group>"; };
+		65281EA329FF278A004AB8A0 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		65281EA529FF283D004AB8A0 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				65281E9129FF1D7D004AB8A0 /* Bodega_RoquetApp.swift */,
 				65281E9329FF1D7D004AB8A0 /* ContentView.swift */,
+				65281E9F29FF1DE5004AB8A0 /* HomeView.swift */,
 				65281E9529FF1D7E004AB8A0 /* Assets.xcassets */,
 				65281E9729FF1D7E004AB8A0 /* Preview Content */,
+				65281EA129FF2097004AB8A0 /* LoadingPageView.swift */,
+				65281EA529FF283D004AB8A0 /* RegisterView.swift */,
+				65281EA329FF278A004AB8A0 /* Functions.swift */,
 			);
 			path = "Bodega Roquet";
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65281EA029FF1DE5004AB8A0 /* HomeView.swift in Sources */,
 				65281E9429FF1D7D004AB8A0 /* ContentView.swift in Sources */,
+				65281EA229FF2097004AB8A0 /* LoadingPageView.swift in Sources */,
+				65281EA629FF283D004AB8A0 /* RegisterView.swift in Sources */,
+				65281EA429FF278A004AB8A0 /* Functions.swift in Sources */,
 				65281E9229FF1D7D004AB8A0 /* Bodega_RoquetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
